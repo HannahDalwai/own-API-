@@ -1,42 +1,45 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
+app.use(cors())
 
 let products = [
     {   id: 1,
         name: "cashew",
         category: "nuts",
         price: 49.99,
+        imgURL:"https://i.postimg.cc/fLg5sN2T/sunsettt.jpg",
        
     },
     {   id: 2,
         name: "chicken",
         category: "meat",
         price: 50.23,
-        
+        imgURL:"https://i.postimg.cc/fLg5sN2T/sunsettt.jpg",
     },
     {   id: 3,
         name: "Orange",
         category: "Fruit",
         price: 26,
-        
+        imgURL:"https://i.postimg.cc/fLg5sN2T/sunsettt.jpg",
     },
     {   id: 4,
         name: "sweetpotato",
         category: "Vegetables",
         price: 20.89,
-       
+        imgURL:"https://i.postimg.cc/fLg5sN2T/sunsettt.jpg",
     },
     {   id: 5,
         name: "Tomato",
-        category: "Vegetables",
+        category: "Fruit",
         price: 9,
-        
+        imgURL:"",
     },
     {   id: 6,
         name: "honey and oats",
         category: "bread",
         price:25.89 ,
-        
+        imgURL:"",
     },
 ]
 
