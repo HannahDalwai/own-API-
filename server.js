@@ -33,13 +33,13 @@ let products = [
         name: "Tomato",
         category: "Fruit",
         price: 9,
-        imgURL:"",
+        imgURL:"https://i.postimg.cc/fLg5sN2T/sunsettt.jpg",
     },
     {   id: 6,
         name: "honey and oats",
         category: "bread",
         price:25.89 ,
-        imgURL:"",
+        imgURL:"https://i.postimg.cc/fLg5sN2T/sunsettt.jpg",
     },
 ]
 
